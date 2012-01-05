@@ -1,0 +1,9 @@
+{
+	"name": "NicoNico++",
+	"version": "0.1",
+	"description": "ニコニコ動画の使い勝手を更に良くする拡張機能です。",
+	"content_scripts": [ {
+		"matches": [ "http://www.nicovideo.jp/watch/sm*" ],
+		"js": [ "shortcut.js", "content_script.js" ]
+	} ]
+}
